@@ -1,8 +1,9 @@
 # raspberry-setting
 ------------------------------------------
 # install python3.8
+
 1\. Update the Raspbian
------------------------
+
 
 Update the Raspbian before installing python.
 
@@ -28,11 +29,13 @@ Read Also:[How to install postgresql 11 on Debian 8 / 9](https://web.archive.org
 ### 4\. Install Python 3.8
 
 Now we will extract and install Python from the source.\
-`sudo tar zxf Python-3.8.0.tgz\
-cd Python-3.8.0\
-sudo ./configure --enable-optimizations\
-sudo make -j 4\
-sudo make altinstall`
+```
+sudo tar zxf Python-3.8.0.tgz
+cd Python-3.8.0
+sudo ./configure --enable-optimizations
+sudo make -j 4
+sudo make altinstall
+```
 
 [https://installvirtual.com/how-to-connect-raspberry-pi-to-wifi-without-a-monitor/](https://web.archive.org/web/20201231160013/https://installvirtual.com/how-to-connect-raspberry-pi-to-wifi-without-a-monitor/)
 
